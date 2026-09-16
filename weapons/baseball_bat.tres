@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MeleeWeaponData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://weapons/melee_weapon_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"baseball_bat"
+display_name = "BASEBALL BAT"
+base_damage = 18.0
+attack_speed = 1.0
+reach = 28.0
+knockback = 68.0
+stagger = 0.24
