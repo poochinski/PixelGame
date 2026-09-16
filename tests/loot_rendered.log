@@ -1,0 +1,34 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 - Build 32.0.101.7085 - Compatibility - Using Device: Intel - Intel(R) UHD Graphics 770
+
+PASS: Fresh player inventory starts with zero cash
+PASS: Invalid credits cannot alter the wallet
+PASS: Nonlethal damage does not create loot
+PASS: A thug death creates exactly one money drop
+PASS: Drop amount is between one and ten whole dollars
+PASS: Dropping money does not credit it before collection
+PASS: Repeated hits on a dead thug cannot create more drops
+PASS: Money waits on the ground while the player is out of range
+PASS: Money outlives the dead thug when a new enemy spawns
+PASS: Walking over money credits its exact amount and removes it
+PASS: HUD confirms the collected amount
+PASS: I opens inventory and pauses combat
+PASS: Inventory freezes world movement
+PASS: Held inventory key does not repeatedly toggle the panel
+PASS: Escape closes inventory and resumes combat
+PASS: Inventory can be inspected from the pause menu
+PASS: Closing inventory preserves an existing pause
+PASS: New drops finish their bounce before pickup
+PASS: Two pickup attempts in one frame only pay once
+PASS: Nearby money cannot be collected through a wall
+PASS: Unobstructed nearby money can be collected
+PASS: Dead players cannot collect money
+PASS: Inventory cannot pause the death respawn countdown
+PASS: Collected cash survives player death and respawn
+PASS: Respawn clears uncollected money from the reset encounter
+PASS: R resets the encounter, closes inventory and preserves collected cash
+PASS: 64 thug deaths each produce one valid cash drop
+PASS: Thug payouts vary across deaths
+PASS: Uncollected random drops do not change cash
+PASS: A new inventory does not inherit another player's balance
+LOOT TEST RESULTS: 30/30 passed

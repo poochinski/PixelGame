@@ -1,0 +1,52 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Player/enemy scenes share reusable combat components
+PASS: Slower WASD pace moves about 44 pixels in half a second
+PASS: Movement stops immediately on release
+PASS: Diagonal movement is normalized
+PASS: Player aims toward viewport mouse position
+PASS: Camera smoothly follows with bounded look-ahead and northward framing
+PASS: Walk animation advances with actual ground travel
+PASS: Windup plants the character despite held movement input
+PASS: Feet stay in world space while the torso and bat drive the strike
+PASS: Planted attacks can still be cancelled with dodge
+PASS: Dodge cancellation clears the attack pose immediately
+PASS: First bat strike deals 18 damage exactly once
+PASS: Impact applies visible stagger and hit flash
+PASS: Impact applies directional knockback
+PASS: Buffered light attacks execute all three combo steps
+PASS: Combo damage is 18 + 18 + 28.8, with no duplicate hits
+PASS: Combo resets after the input window expires
+PASS: Heavy attack has a real windup before dealing damage
+PASS: Heavy strike deals 43.2 damage
+PASS: Heavy strike has stronger stagger and knockback
+PASS: Heavy attack exits recovery cleanly
+PASS: Melee sectors reject targets behind the player
+PASS: Solid walls block melee damage
+PASS: Hitboxes reject friendly fire
+PASS: Directional dodge can start when ready
+PASS: Dodge invulnerability rejects damage
+PASS: Attacks are blocked during dodge
+PASS: Invulnerability expires before the dodge ends
+PASS: Dodge covers a shorter controlled burst distance
+PASS: Dodge cooldown prevents repeated dashes
+PASS: Dodge becomes available after cooldown
+PASS: Dodge cannot pass through solid arena walls
+PASS: Pushing into a wall does not play a treadmill walk cycle
+PASS: Knockback physically displaces enemies
+PASS: Thug navigates around the dumpster and reaches player
+PASS: Thug assesses and circles at medium range
+PASS: Circling produces lateral movement without contact damage
+PASS: Late windup locks aim rather than tracking the player
+PASS: Sidestep makes the strike whiff and exposes a punish window
+PASS: Thug telegraphs before striking
+PASS: Telegraph does not deal early damage
+PASS: Enemy melee strike damages player
+PASS: Player death begins respawn countdown
+PASS: Player automatically respawns at full health
+PASS: Player respawns at arena checkpoint
+PASS: Enemy death increments KO counter
+PASS: Next Street Thug spawns for continued practice
+PASS: Escape pauses the game
+PASS: Escape resumes from pause
+COMBAT TEST RESULTS: 49/49 passed

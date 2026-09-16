@@ -1,0 +1,52 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 - Build 32.0.101.7085 - Compatibility - Using Device: Intel - Intel(R) UHD Graphics 770
+
+PASS: Town creates three distinct interiors and four street thugs
+PASS: All three doorways have traversable routes from the town spawn
+PASS: Standing beside a neutral thug does not start combat
+PASS: A missed swing does not provoke the thug
+PASS: An actual bat hit provokes the struck thug
+PASS: Uninvolved thugs remain peaceful
+PASS: Provoked thug retaliates with its melee AI
+PASS: Defeat drops money but does not advance an unaccepted mission
+PASS: shop door enters its own interior
+PASS: Interior disables combat attacks
+PASS: Street actors remain frozen while inside a building
+PASS: Walking to the counter and pressing E opens a paused service panel
+PASS: Shop refuses an unaffordable purchase without changing inventory
+PASS: Two $5 purchases debit exactly $10 and grant two bandages
+PASS: B consumes one bandage and heals thirty HP
+PASS: Bandage healing clamps to maximum health
+PASS: Full supply capacity rejects purchase without charging
+PASS: Full-health players do not waste a bandage
+PASS: Bandages can be used from the paused inventory
+PASS: Interior exit returns to the matching street doorway
+PASS: Cash and supplies persist across room transitions
+PASS: Leaving an interior re-enables combat
+PASS: hospital door enters its own interior
+PASS: Walking to the counter and pressing E opens a paused service panel
+PASS: Hospital restores full health for free
+PASS: Repeated full-health treatment does not change cash or health
+PASS: Interior exit returns to the matching street doorway
+PASS: bar door enters its own interior
+PASS: Walking to the counter and pressing E opens a paused service panel
+PASS: Bar accepts the first mission without counting earlier fights
+PASS: Incomplete mission cannot pay out or restart
+PASS: Interior exit returns to the matching street doorway
+PASS: Three post-acceptance victories complete the mission objective
+PASS: Town combat preserves the existing money drops
+PASS: bar door enters its own interior
+PASS: Walking to the counter and pressing E opens a paused service panel
+PASS: Returning to the bar pays the $25 mission reward
+PASS: Completed mission cannot pay twice
+PASS: Interior exit returns to the matching street doorway
+PASS: Replacement town thugs start neutral
+PASS: Player death recovers safely inside the hospital
+PASS: Death preserves wallet, supplies and mission state
+PASS: Recovery resets street hostilities
+PASS: Town pause works
+PASS: Inventory preserves a pre-existing town pause
+PASS: Interior exit returns to the matching street doorway
+PASS: Building facade blocks walking through its wall
+PASS: Interaction cannot enter a building from across the street
+TOWN TEST RESULTS: 48/48 passed
